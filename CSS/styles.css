@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    color: #ddd;
+    background-color: #222;
+}
+
+form {
+    background-color: transparent;
+    padding: 20px 20px;
+    max-width: 500px;
+    margin: auto;
+    box-shadow: 0px 0px 55px #fff2;
+    margin-top: 50px;
+    border-radius: 8px;
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+
+h2 {
+    text-align: center;
+    margin: 0;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-weight: 100;
+    font-size: 1.3em;
+    padding: 10px;
+}
+
+.form_input {
+    padding: 6px 20px;
+}
+
+input, textarea, select {
+    background-color: transparent;
+    border: none;
+    border: 1px solid #ddd6;
+    color: #ddd;
+    border-radius: 6px;
+    width: 100%;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 15px #0003;
+    padding: 6px 8px;
+    margin: 6px 00;
+}
+
+option {
+    background-color: #222;
+}
+
+label {
+    font-size: 0.9em;
+    line-height: 2em;
+    font-family: sans-serif;
+
+}
+
+textarea {
+    min-width: 100%;
+    resize: none;
+    min-height: 102px;
+    font-family: sans-serif;
+    box-sizing: content
+}
+
+fieldset {
+    margin: 20px 0;
+    border: 1px solid #ddd6;
+    border-radius: 5px;
+    padding: 8px 6px 20px 6px;
+    margin: 20px; 
+}
+
+legend {
+    padding: 0 6px;
+    border: 1px solid #ddd6;
+    background-color: #ddd6;
+    color: #222;
+}
+
+.checkbox {
+    width: auto;
+    height: 10px;
+}
+
+details {
+    background-color: transparent;
+    border: 1px solid #ddd;
+    padding: 9px;
+    font-size: 0,7em;
+    color: #aaa;
+}
+
+summary {
+    background-color: transparent;
+    font-size: 1em;
+    color: #eee;
+}

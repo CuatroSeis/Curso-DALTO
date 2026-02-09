@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <h2>
+            formulario de contacto
+        </h2>
+        <!-- informacion basica input-->
+        <fieldset>
+            <legend> informacion basica</legend>
+        <div class="form_input">
+            <label>Nombre
+                <input type="text" placeholder="john Doe">
+            </label>
+        </div>
+        <div class="form_input">
+            <label>Email
+                <input type="email" placeholder="john@example.com">
+            </label>
+        </div>
+        <div class="form_input">
+            <label>Asunto
+                <input type="text" placeholder="Asunto del mensaje">
+            </label>
+        </div>
+        </fieldset>
+        <!-- SELEC & OPTION-->
+        <fieldset>
+            <legend>SELECT & DATALIST</legend>
+        <div class="form_input">
+            <label>País
+                <select>
+                    <option value="">Selecciona un país</option>
+                    <option value="mx">México</option>
+                    <option value="es">España</option>
+                    <option value="us">Estados Unidos</option>
+                </select>
+            </label>
+        </div>
+
+        <!-- DATALIST & OPTION -->
+        <div class="form_input">
+            <label>Ciudad
+                <input list="ciudades" placeholder="Selecciona una ciudad">
+                <datalist id="ciudades">
+                    <option value="Ciudad de México">
+                    <option value="Madrid">
+                    <option value="Nueva York">
+                </datalist>
+            </label>
+        </div>
+        </fieldset>
+        <fieldset>
+            <legend>Mensaje</legend>
+        <div class="form_input">
+            <label>Mensaje
+                <textarea placeholder="Escribe tu mensaje aquí"></textarea>
+            </label>
+        </div>
+
+        <div class="form_input">
+            <label>Terminos&Condiciones
+                <details>
+                    <summary>despliegue para ver terminos</summary>
+                    <ul>
+                        <li>No existen terminos!</li>
+                        <li>No existen condiciones!</li>
+                        <li>SOLO ACEPTA</li>
+                    </ul>
+                </details>
+            </label>
+        </div>
+        <div class="form_input">
+            <label>
+                <input type="checkbox" class="checkbox" > Acepto los términos y condiciones
+            </label>
+        </div>
+        </fieldset>
+    </form>
+    
+</body>
+</html>

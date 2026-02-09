@@ -1,0 +1,22 @@
+p {
+    color: cadetblue;
+    font-size: 20px;
+}
+h1{
+    color:rgb(152, 73, 173);
+    font-size: 30
+    px;
+}
+li{
+    color: grey
+}
+span{
+    color:rgb(151, 91, 91);
+    font-size: 20px;
+}
+.faltante{
+    color:red
+}
+#ingrediente-secreto{
+    color:rgb(15, 139, 139)
+}
