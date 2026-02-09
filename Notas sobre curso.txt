@@ -605,7 +605,9 @@ TABLAS:
 
         <td></td> crea columnas para esa filas
 
+        <thead></thead> es una forma de hacerle entender al navegador,de que lo que esta entre la etiquetas es el encabezado de la table
 
+        <tbody></tbody> es donde van a estar los datos de la tabla
 
 
 
