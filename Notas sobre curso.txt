@@ -581,7 +581,34 @@ DETAILS y SUMMARY:
 
 ENLACES (avanzado):
 
-        
+        hay diferentes formas de navegar entre paginas, tanto interactuando en la misma pagina, utilizando # o con hipervinculos especificos como https://pagina.com
+
+        <a href="#buy-process">Proceso de compra</a> desliza la pagina hasta la ubicacion del #
+
+        <a href="#privacy">Politica de privacidad</a> desliza la pagina hasta la ubicacion del #
+
+        <a href="terms.html download> Descargar terminos y condiciones</a>  genera una descarga de el archivo terms.html
+
+        <a href="mailto:tumail@gmail.com" rel="nofollow" target="_blank">mail</a>  te abre el enviador de mail que este predefinido.
+
+        estos son diferentes ejemplos de como pueden utilizarlos los ENLACES.
+
+TABLAS: 
+
+    Solamente las utilizamos para mostras datos tabulares, basado en celdas.
+
+    Basicamente las tablas son una forma de organizar datos en filas y columnas. Es muy parecido a como se manejan las hojas de calculo de excel.
+
+    una tabla se define con la etiqueta <table></table>, y se separan en varias etiquetas, 3 de las mas importantes son:
+
+        <tr></tr> crea una fila
+
+        <td></td> crea columnas para esa filas
+
+
+
+
+
     
 
 
