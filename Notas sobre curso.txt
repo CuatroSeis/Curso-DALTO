@@ -609,7 +609,20 @@ TABLAS:
 
         <tbody></tbody> es donde van a estar los datos de la tabla
 
+AUDIO y VIDEO:
 
+    estas son las formas de poner videos en la web, utilizamos la etiqueta <video>,</video> con diferentes atributos, los mas utilizados, controls, autoplay, muted, srf="direccion del video".
+        obviamente el video tenemos que tenerlo descargado y con facil acceso.
+
+        <video controls autoplay muted src="video.mp4"></video> 
+
+        esta es la estructura de una etiqueta de video.
+
+            controls: nos habilita la barra por defeto de navegacion de video, el play volumen, pantalla completa, y el timelapse.
+
+            autoplay muted: permite que al cargar la pagina, el video se reproduzca de fondo en silencio. Hasta que el usuario interactue con el.
+
+            scr="" : es el source del video, donde se encuentra el video que queremos reproducir
 
     
 
